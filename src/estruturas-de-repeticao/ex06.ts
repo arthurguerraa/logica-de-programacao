@@ -13,7 +13,7 @@ async function main (){
   let cont: number = 0;
   for(i = 1; i <= n1; i++){
     if(i % 2 === 0){
-      cont++
+      cont++;
     }
   }
   console.log(`Entre 1 e ${n1} existem ${cont} números pares`);
