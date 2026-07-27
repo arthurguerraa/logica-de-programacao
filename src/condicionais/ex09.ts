@@ -13,8 +13,6 @@ async function main(){
   let segundos = hora * 3600;
 
   console.log(`Horas: ${hora}\nMinutos: ${minutos}\nSegundos: ${segundos}`);
-
   rl.close();
 }
-
 main();

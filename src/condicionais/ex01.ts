@@ -14,8 +14,6 @@ async function main(){
   }else{
     console.log(`${numero} é ímpar.`);
   }
-
   rl.close();
 }
-
 main();

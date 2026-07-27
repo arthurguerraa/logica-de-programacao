@@ -17,8 +17,6 @@ async function main(){
   let divisao = n1 / n2;
 
   console.log(`${n1} + ${n2} = ${soma}\n${n1} - ${n2} = ${subtracao}\n${n1} * ${n2} = ${multiplicacao}\n${n1} / ${n2} = ${divisao}`);
-
   rl.close();
 }
-
 main();

@@ -18,8 +18,6 @@ async function main(){
   }else{
     console.log(`${n1} e ${n2} são iguais!`);
   }
-
   rl.close();
 }
-
 main();

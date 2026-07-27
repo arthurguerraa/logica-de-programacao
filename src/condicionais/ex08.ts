@@ -14,8 +14,6 @@ async function main(){
   fahrenheit = (((celsius * 9) / 5) + 32);
 
   console.log(`Temperatura em Celsius: ${celsius}\nTemperatura em Fahrenheit: ${fahrenheit}`);
-
   rl.close();
 }
-
 main();

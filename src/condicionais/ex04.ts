@@ -16,8 +16,6 @@ async function main(){
   }else{
     console.log(`${n1} é 0`);
   }
-
   rl.close();
 }
-
 main();

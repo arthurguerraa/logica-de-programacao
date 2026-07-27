@@ -16,8 +16,6 @@ async function main() {
   } else {
     console.log(`${ano} não é bissexto!`);
   }
-
   rl.close();
 }
-
 main();

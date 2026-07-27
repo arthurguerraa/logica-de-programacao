@@ -8,5 +8,4 @@ async function main(){
     }
   }
 }
-
 main();

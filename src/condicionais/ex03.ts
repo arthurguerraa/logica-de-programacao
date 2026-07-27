@@ -33,8 +33,6 @@ async function main(){
   }
 
   console.log(`Maior número: ${maior}\nMenor número: ${menor}`);
-
   rl.close();
 }
-
 main();

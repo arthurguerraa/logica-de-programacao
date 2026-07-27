@@ -20,8 +20,6 @@ async function main(){
   media = ((nota1 + nota2 + nota3 + nota4) / 4);
 
   console.log(`Nota 1: ${nota1}\nNota 2: ${nota2}\nNota 3: ${nota3}\nNota 4:${nota4}\nMédia final: ${media}`);
-
   rl.close();
 }
-
 main();

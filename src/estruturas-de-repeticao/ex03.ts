@@ -17,8 +17,6 @@ async function main() {
     soma = i + soma;
   }
   console.log(`A soma de 1 até ${n1} é de ${soma}`);
-
   rl.close();
 }
-
 main();

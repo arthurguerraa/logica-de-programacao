@@ -16,8 +16,6 @@ async function main(){
   imc = (peso/(altura**2));
 
   console.log(`Seu peso: ${peso}\nSua altura: ${altura}\nSeu IMC: ${imc}`);
-
   rl.close();
 }
-
 main();
