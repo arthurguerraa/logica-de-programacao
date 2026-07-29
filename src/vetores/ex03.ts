@@ -13,14 +13,14 @@ async function main(){
     vetNumeros[i] = Number(entrada);
   }
 
-  let maiorNumero: number = vetNumeros[0];
+  let menorNumero: number = vetNumeros[0];
 
   for(let i = 0; i < vetNumeros.length; i++){''
-    if(vetNumeros[i] > maiorNumero){
-      maiorNumero = vetNumeros[i];
+    if(vetNumeros[i] < menorNumero){
+      menorNumero = vetNumeros[i];
     }
   }
-  console.log(`O maior número digitado foi ${maiorNumero}`);
+  console.log(`O maior número digitado foi ${menorNumero}`);
   rl.close();
 }
 main();
