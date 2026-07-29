@@ -1,4 +1,4 @@
-/*Mostrar o maior.*/
+/*Mostrar o menor.*/
 
 import * as readline from "node:readline/promises";
 import {stdin as input, stdout as output} from "node:process";
@@ -20,7 +20,7 @@ async function main(){
       menorNumero = vetNumeros[i];
     }
   }
-  console.log(`O maior número digitado foi ${menorNumero}`);
+  console.log(`O menor número digitado foi ${menorNumero}`);
   rl.close();
 }
 main();
