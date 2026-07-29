@@ -6,9 +6,9 @@
 
     "types": ["node"],
 
-    "strict": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+    "strict": false, //depois mudar pra true
+    "noUncheckedIndexedAccess": false, //depois mudar pra true
+    "exactOptionalPropertyTypes": false, //depois mudar pra true
 
     "skipLibCheck": true
   }

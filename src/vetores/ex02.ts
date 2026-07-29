@@ -15,7 +15,7 @@ async function main(){
 
   let maiorNumero: number = vetNumeros[0]!;
 
-  for(let i = 0; i < vetNumeros.length; i++){
+  for(let i = 0; i < vetNumeros.length; i++){''
     if(vetNumeros[i] > maiorNumero){
       maiorNumero = vetNumeros[i];
     }
