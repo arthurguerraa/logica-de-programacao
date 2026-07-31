@@ -6,8 +6,8 @@ import {stdin as input, stdout as output} from "node:process";
 const rl = readline.createInterface({input, output});
 
 async function main(){
-  const vet1: number[] =;
-  const vet2: number[] =;
+  const vet1: number[] = [1,2,3,4];
+  const vet2: number[] = [5,6,7,8];
   const vetJunto: number[] = [];
 
   // Laço 1: Copia todos os elementos do primeiro vetor
