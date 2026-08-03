@@ -13,7 +13,7 @@ const resultado1: number = sortearNumero(1, 10);
 
 let verificador: boolean = false;
 do{
-  const entrada = await rl.question(`Adivinhe o número sorteado pelo computador: `)
+  const entrada = await rl.question(`Adivinhe o número sorteado pelo computador: `);
   const n1 = Number(entrada);
   if(n1 === resultado1){
     console.log(`Número sorteado: ${resultado1}\nSeu palpite: ${n1}\nAcertou!`);
