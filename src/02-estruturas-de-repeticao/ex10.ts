@@ -11,17 +11,17 @@ async function main(){
 }
 const resultado1: number = sortearNumero(1, 10);
 
-let contador: boolean = false;
+let verificador: boolean = false;
 do{
   const entrada = await rl.question(`Adivinhe o número sorteado pelo computador: `)
   const n1 = Number(entrada);
   if(n1 === resultado1){
     console.log(`Número sorteado: ${resultado1}\nSeu palpite: ${n1}\nAcertou!`);
-    contador = true
+    verificador = true
   }else{
     console.log(`Errou, tente novamente!`);
   }
-}while(contador === false);
+}while(verificador === false);
 rl.close();
 }
 main();
