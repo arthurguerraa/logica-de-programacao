@@ -21,6 +21,7 @@ async function main(){
   const entrada2 = await rl.question(`Digite o segundo número: `);
   const n2 = Number(entrada2)
 
+  
   maiorNumero(n1, n2);
   rl.close();
 }
